@@ -1,0 +1,167 @@
+body {
+    background-color: #FFE3DB;
+    /* background-image: url(background.jpg);*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 140%;
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+      margin-left: 10px;
+    }
+  
+  }
+
+/* Pfeil back to top */
+#backtotop {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    left: 95%;
+    max-width: 30px;
+    width: 100%;
+    padding: .5px;
+}
+
+/* Pfeil back to top -> keine Unterlinie*/
+.no-underline {
+    text-decoration: none;
+}
+
+/* Menü */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px (white);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #CE9933;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#CE9933;
+}
+
+/* Subtitel */
+.H1 {
+    border: #CE9933;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    font-size: 32px;
+    line-height: 160%;
+    padding: 2%;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.H2 {
+    border-bottom: #CE9933;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    font-size: 24px;
+    padding: 1%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 212px;
+    margin-left: -12px;
+    margin-right: 200px;
+}
+.H3 {
+    border-bottom: #CE9933;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    font-size: 18px;
+    padding: 1%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 212px;
+    margin-left: -12px;
+    margin-right: 200px;
+}
+
+/* div Blogtext */
+.blogtext {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 200px;
+    width: 60%;
+    margin-right: 200px;
+}
+
+/* Tabelle */
+
+.flex-container2, 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+  }
+ 
+  .flex-container2 > div {
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+   
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
